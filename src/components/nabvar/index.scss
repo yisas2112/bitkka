@@ -1,0 +1,57 @@
+
+#nabvar{    
+    background-color: #141DF0;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    
+
+    #logo{
+        position: absolute;
+        left: 0;
+        height: 40px;
+        margin-left: 85px;
+    }    
+    
+    #menu__list__items{   
+        margin: 0 ;
+        
+        display: flex;
+        flex-direction: row;
+        list-style: none;             
+        
+        li{
+            margin-left: 5px;
+        }
+
+        li a{
+            color: white;
+        }
+
+        li button{            
+            width: 129px;
+            height: 40px;
+            left: 1133px;
+            top: 29px;
+            background-color: #FFFFFF;
+            border-radius: 30px;
+            color: #141DF0;
+            border: none;
+            
+            
+        }
+        
+    }
+
+    
+
+    
+
+    
+}
