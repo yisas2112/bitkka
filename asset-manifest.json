@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bitkka/static/css/main.dd2ab1ad.chunk.css",
-    "main.js": "/bitkka/static/js/main.c3e08cb9.chunk.js",
-    "main.js.map": "/bitkka/static/js/main.c3e08cb9.chunk.js.map",
+    "main.js": "/bitkka/static/js/main.f90408da.chunk.js",
+    "main.js.map": "/bitkka/static/js/main.f90408da.chunk.js.map",
     "runtime-main.js": "/bitkka/static/js/runtime-main.ed2bae44.js",
     "runtime-main.js.map": "/bitkka/static/js/runtime-main.ed2bae44.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/bitkka/static/css/2.ae9f1eb3.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.71706e0e.chunk.js",
     "static/css/main.dd2ab1ad.chunk.css",
-    "static/js/main.c3e08cb9.chunk.js"
+    "static/js/main.f90408da.chunk.js"
   ]
 }
