@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bitkka/static/css/main.f42802bb.chunk.css",
-    "main.js": "/bitkka/static/js/main.6379bb83.chunk.js",
-    "main.js.map": "/bitkka/static/js/main.6379bb83.chunk.js.map",
+    "main.css": "/bitkka/static/css/main.c091e92a.chunk.css",
+    "main.js": "/bitkka/static/js/main.2fbb06b8.chunk.js",
+    "main.js.map": "/bitkka/static/js/main.2fbb06b8.chunk.js.map",
     "runtime-main.js": "/bitkka/static/js/runtime-main.ed2bae44.js",
     "runtime-main.js.map": "/bitkka/static/js/runtime-main.ed2bae44.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/bitkka/static/css/2.ae9f1eb3.chunk.css",
@@ -10,12 +10,13 @@
     "static/js/2.7f61b1fd.chunk.js.map": "/bitkka/static/js/2.7f61b1fd.chunk.js.map",
     "index.html": "/bitkka/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/bitkka/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.f42802bb.chunk.css.map": "/bitkka/static/css/main.f42802bb.chunk.css.map",
+    "static/css/main.c091e92a.chunk.css.map": "/bitkka/static/css/main.c091e92a.chunk.css.map",
     "static/js/2.7f61b1fd.chunk.js.LICENSE.txt": "/bitkka/static/js/2.7f61b1fd.chunk.js.LICENSE.txt",
     "static/media/beneficiosimagensegunda.9eea61bd.svg": "/bitkka/static/media/beneficiosimagensegunda.9eea61bd.svg",
     "static/media/beneficiosprimerimagen.e4fffd5b.svg": "/bitkka/static/media/beneficiosprimerimagen.e4fffd5b.svg",
     "static/media/botonesdepago.53826739.svg": "/bitkka/static/media/botonesdepago.53826739.svg",
     "static/media/donarconbitcoin.da1e280e.svg": "/bitkka/static/media/donarconbitcoin.da1e280e.svg",
+    "static/media/donarconbitcoinhover.57aa998e.svg": "/bitkka/static/media/donarconbitcoinhover.57aa998e.svg",
     "static/media/homecuartasecciondos.e1f3b34f.svg": "/bitkka/static/media/homecuartasecciondos.e1f3b34f.svg",
     "static/media/homecuartasecciontres.e046d2de.svg": "/bitkka/static/media/homecuartasecciontres.e046d2de.svg",
     "static/media/homecuartaseccionuno.7e20a89b.svg": "/bitkka/static/media/homecuartaseccionuno.7e20a89b.svg",
@@ -37,7 +38,7 @@
     "static/js/runtime-main.ed2bae44.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.7f61b1fd.chunk.js",
-    "static/css/main.f42802bb.chunk.css",
-    "static/js/main.6379bb83.chunk.js"
+    "static/css/main.c091e92a.chunk.css",
+    "static/js/main.2fbb06b8.chunk.js"
   ]
 }
