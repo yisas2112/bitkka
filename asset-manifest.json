@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/bitkka/static/css/main.95db4f72.chunk.css",
-    "main.js": "/bitkka/static/js/main.c7af984e.chunk.js",
-    "main.js.map": "/bitkka/static/js/main.c7af984e.chunk.js.map",
+    "main.css": "/bitkka/static/css/main.a5575fa4.chunk.css",
+    "main.js": "/bitkka/static/js/main.32d6ff1c.chunk.js",
+    "main.js.map": "/bitkka/static/js/main.32d6ff1c.chunk.js.map",
     "runtime-main.js": "/bitkka/static/js/runtime-main.ed2bae44.js",
     "runtime-main.js.map": "/bitkka/static/js/runtime-main.ed2bae44.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/bitkka/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.82a2d876.chunk.js": "/bitkka/static/js/2.82a2d876.chunk.js",
-    "static/js/2.82a2d876.chunk.js.map": "/bitkka/static/js/2.82a2d876.chunk.js.map",
+    "static/js/2.d10d245f.chunk.js": "/bitkka/static/js/2.d10d245f.chunk.js",
+    "static/js/2.d10d245f.chunk.js.map": "/bitkka/static/js/2.d10d245f.chunk.js.map",
     "index.html": "/bitkka/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/bitkka/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.95db4f72.chunk.css.map": "/bitkka/static/css/main.95db4f72.chunk.css.map",
-    "static/js/2.82a2d876.chunk.js.LICENSE.txt": "/bitkka/static/js/2.82a2d876.chunk.js.LICENSE.txt",
+    "static/css/main.a5575fa4.chunk.css.map": "/bitkka/static/css/main.a5575fa4.chunk.css.map",
+    "static/js/2.d10d245f.chunk.js.LICENSE.txt": "/bitkka/static/js/2.d10d245f.chunk.js.LICENSE.txt",
     "static/media/beneficiosimagensegunda.9eea61bd.svg": "/bitkka/static/media/beneficiosimagensegunda.9eea61bd.svg",
     "static/media/beneficiosprimerimagen.e4fffd5b.svg": "/bitkka/static/media/beneficiosprimerimagen.e4fffd5b.svg",
     "static/media/botonesdepago.53826739.svg": "/bitkka/static/media/botonesdepago.53826739.svg",
@@ -33,13 +33,15 @@
     "static/media/nosotros.9f862117.svg": "/bitkka/static/media/nosotros.9f862117.svg",
     "static/media/recibetuspagos.4f54ff1e.svg": "/bitkka/static/media/recibetuspagos.4f54ff1e.svg",
     "static/media/secctionstreamers.c0aa17dd.svg": "/bitkka/static/media/secctionstreamers.c0aa17dd.svg",
+    "static/media/tarifasimage.37485515.svg": "/bitkka/static/media/tarifasimage.37485515.svg",
+    "static/media/tarigasimagefondo.6da1e32e.svg": "/bitkka/static/media/tarigasimagefondo.6da1e32e.svg",
     "static/media/vendeproductosyservicvios.bef0e49d.svg": "/bitkka/static/media/vendeproductosyservicvios.bef0e49d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ed2bae44.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.82a2d876.chunk.js",
-    "static/css/main.95db4f72.chunk.css",
-    "static/js/main.c7af984e.chunk.js"
+    "static/js/2.d10d245f.chunk.js",
+    "static/css/main.a5575fa4.chunk.css",
+    "static/js/main.32d6ff1c.chunk.js"
   ]
 }
