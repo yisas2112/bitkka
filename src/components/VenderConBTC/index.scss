@@ -1,0 +1,75 @@
+#VenderConBTC{
+    background-color: #E5E5E5;
+    padding-top: 46px;
+    .venderConBTC__titulo__imagen{
+        display: flex;
+        justify-content: center;
+        
+        .venderConBTC__titulo__texto{
+            width: 564px;
+            h2{
+                color: #141DF0;
+                font-size: 40px;
+                font-weight: 500;
+                
+            }
+            p{
+                font-size: 24px;
+                line-height: 38px;
+                
+            }
+        }
+        img{
+            width: 616px;
+            height: 615px;
+            margin-left: 42px;
+        }
+    }
+    .venderConBTC__btn{        
+        width: 425px;
+        height: 55px;
+        color: #FFFFFF;
+        font-size: 24px;
+        background-color: #141DF0;
+        border-radius: 30px;
+        border: none;
+        margin-top: 27px;
+        margin-left: 76px;
+        margin-bottom: 50px;
+    }
+
+    .vendeConBTC__more__info{
+        margin-left: 76px;  
+
+        .vendeConBTC__more__info__texto{
+            width: 900px;
+            h2{
+                margin-bottom: 30px;
+                margin-top: 50px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 24px;
+                line-height: 38px;
+                font-weight: 300px;
+            }            
+            
+        }
+        .venderConBTC__more__info__button{
+            width: 425px;
+            height: 70px;            
+            font-size: 24px;
+            background-color: #141DF0;
+            border-radius: 30px;
+            border: none;
+            margin-top: 27px;            
+            margin-bottom: 100px;
+            a{
+                color: #FFFFFF;
+                text-decoration: none;
+            }   
+
+        }
+    }
+    
+}

@@ -28,24 +28,28 @@
             }
         }
     }
-    img{
+    .footer__soporte__image__container{
         width: 570px;
         height: 400px;
+        img{
+            width: 100%;
+         
+        }
     }
 
     .footer__contacto__container{
-        padding: 42px 115px;
         height: 425px;        
         background-color: #141DF0;
         .footer__contacto_logo{
+            margin: 38px 0 38px 50px;
             width:198px;
             height: 38px;
-            margin-bottom: 38px;
+            
         }
         .footer__contacto__columnas{
             display: flex;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             
             .footer__contacto__column{
                 width: 200px;
@@ -83,14 +87,22 @@
             }   
             
         }
-    .footer__derechos{        
-            display: flex;
-            flex-direction: row;            
-            font-weight: 300;   
-            margin-top: 60px;            
-            justify-content: center;
-            .footer__derechosreservados{
-                margin-right: 70px ;
+    .footer__derechos{
+            display: flex;    
+            align-items: center;
+            justify-content: center;            
+            font-weight: 300;               
+            margin-top: 50px;
+            
+            
+            .footer__derechosreservados{                
+                width: 300px;
+                font-size: 14px;
+                
+            }
+
+            .footer__derechosreservados__datos{
+                font-size: 14px;
                 
             }
         } 

@@ -1,13 +1,16 @@
 #home{    
     width: 100%;
-           
+    background-color: #E5E5E5;           
 
     .images__home{                                
         height: 500px;
-        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
         .imagenHome{  
             position: absolute;
-            width: 914px;
+            width: 100%;
             height: 479px;
         }
 
@@ -16,18 +19,25 @@
             position: relative;
             width: 575.93px;
             height: 113.62;
-            left: 322px;
-            top: 245px;
+            left: 463px;
+            top: 60px;
             
             
             
         }
-        .textoHome{
-            position: relative;
-            width: 623px;
-            height: 137px;
-            left: 322px;
-            top: 225px;
+        .textoHome_container{
+            height: 137px;            
+            .textoHome{
+                width: 623px;
+                position: relative;                        
+                left: -115px;
+                top: 180px;
+                font-size: 48px;
+                font-weight: normal;
+                color: #000000;
+                line-height: 107%;
+                
+            }
         }
 
         
@@ -79,7 +89,7 @@
             margin-bottom: 7px;
         }
         .home__ventajas__image{
-            width: 347px;
+            width: 100%;
             height: 351px;
             margin-left: 127px;
         }
@@ -95,10 +105,13 @@
             font-size: 42px;
             margin-bottom: 61px;
         }       
-        .home__integracion__image{
-            width: 586px;
-            height: 454px;
+        .home__integracion__image__container{
             margin-right: 191px;
+        .home__integracion__image{
+            width: 100%;
+            height: 454px;
+            
+        }
         }
 
         .home__integracion__text{
@@ -120,26 +133,24 @@
         height: 656px;
         background-color: #231F20;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-
+        
+        .home__seccionblackContent{
+            width: 342px;
+            height: 500px;            
+            text-align: left;
         .home__seccionblackContent__images{
+            width: 100%;
             height: 236px;
             margin-bottom: 37px;
         }
-
         .home__seccionblackContent__divisor{
+            
             height: 1px;
             background-color: #FFFFFF;            
             margin-bottom: 18px;
         }
-        .home__seccionblackContent{
-            width: 342px;
-            height: 500px;
-            margin-right: 101px;
-            text-align: left;
-            
-
             .home__seccionblackContent__text{
                 color: #FFFFFF;
                 font-size: 40px;
@@ -157,6 +168,9 @@
         
         .home__streamersyoutbers__image{
             margin-right: 80px;
+            img{
+                width: 100%;
+            }
         }
 
         .home__streamersyoutbers__text{
@@ -211,6 +225,9 @@
         .home_vendeproductosservicios__image{
             height: 356px;
             width: 325px;
+            img{
+                width: 100%;
+            }
         }
     }
 
@@ -224,6 +241,10 @@
             width: 433px;
             height: 419px;
             margin-right: 125px;
+
+            img{
+                width: 100%;
+            }
         }
 
         .home__seguridad__text__container{

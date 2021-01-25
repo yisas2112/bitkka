@@ -2,7 +2,6 @@ import React from 'react'
 import './index.scss'
 import imageHome from '../../images/imagehome.svg'
 import logoHome from '../../images/logohome.svg'
-import textoHome from '../../images/textohome.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import homeVentajas from '../../images/homeventajas.svg'
 import homeIntegracion from '../../images/homeintegracion.svg'
@@ -19,7 +18,10 @@ const Home = ()=>{
             <div className='container images__home mb-3'>
                 <img className='imagenHome' src={imageHome}></img>
                 <img className='logoHome' src={logoHome}></img>
-                <img className='textoHome' src={textoHome}></img>
+                <div className='textoHome_container'>
+                <h1 className='textoHome'>La Primer Plataforma de cripto-pagos</h1>
+                </div>
+                
             </div> 
             
             <div className='home__pastillas container-fluid mb-4'>
@@ -35,7 +37,7 @@ const Home = ()=>{
             </div> 
             <div className='home__ventajas container-fluid'>                
                 <div>
-                    <h2>Vetanjas</h2>
+                    <h2>Ventajas</h2>
                     <div className='home__ventajas__texto'>
                         Sin necesidad de asociar una Tarjeta de Crédito
                     </div>
@@ -54,7 +56,7 @@ const Home = ()=>{
                 </div>
             </div>
             <div className='home__integracion'>
-                <div>
+                <div className='home__integracion__image__container'>
                     <img className='home__integracion__image' src={homeIntegracion}/>
                 </div>
                 <div>
@@ -119,11 +121,15 @@ const Home = ()=>{
                     <div className='home_vendeproductosservicios__text__info'>
                         Pagos a traves de Wallets
                     </div>
+                </div>
+                <div className='home_vendeproductosservicios__image'>
+                <img src={HomeProductosServicios}/>                
                 </div>               
-                <img className='home_vendeproductosservicios__image' src={HomeProductosServicios}/>                
             </div>
             <div className='home__seguridad__container'>
-                <img className='home__seguridad__image' src={HomeSeguridad}/>
+                <div className='home__seguridad__image'>
+                <img src={HomeSeguridad}/>
+                </div>
                 <div className='home__seguridad__text__container'>
                     <div className='home__seguridad__titulo_container'>
                         <h2>Seguridad</h2>

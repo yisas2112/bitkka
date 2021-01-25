@@ -1,0 +1,90 @@
+#tarifas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;        
+
+    .tarifas__table__image{
+        width: 1200px;
+        display: flex;
+        flex-direction: column;    
+        margin-top: 67px;    
+
+        .tarifas__h1{
+            align-self: flex-start;
+            h1{ 
+                font-size: 40px;
+                color: #141DF0; 
+                margin-bottom: 48px;       
+            }
+        }           
+        .tarifas__table__image__container{            
+            display: flex;                        
+            text-align: center;            
+            
+            .tarifas__table{
+                width: 725px;
+                height: 429px;
+                margin-right: 120px;
+                
+                tr{                
+                    
+                    th{                    
+                        height: 67px;
+                        text-align: center;
+                        background: #141DF0;
+                        color: #FFFFFF;
+                        font-size: 40px;
+                        line-height: 127%;
+                        border-radius: 30px 30px 5px 5px;
+                    }
+                    td{ 
+                        border: 2px solid #141DF0;                                                            
+                        
+                    }
+                }
+            }
+        }
+        .tarifas__imagen__container{
+            position: relative;
+            width: 363px;
+            height: 339px;
+            .tarifas__imagen{
+                width: 277px;
+                height: 350px;
+                position: absolute;
+                left: 30px;
+            }
+            .tarifas__imagen__fondo{
+                height: 339px;
+                
+                
+                
+            }
+        }
+
+        .tarifas__texto__buton__container{
+            width: 718px;
+            margin-top: 112px;
+            p{
+            line-height: 38px;
+            font-size: 24px; 
+            margin-bottom: 30px;           
+            }
+            button{
+                width: 292px;
+                height: 67px;
+                left: 92px;
+                top: 982px;
+                background: #141DF0;
+                border-radius: 30px;
+                border: none;
+                font-size: 24px;
+                line-height: 38px;
+                color: #FFFFFF;
+                margin-bottom: 97px;
+            }
+        }
+    }
+    
+}

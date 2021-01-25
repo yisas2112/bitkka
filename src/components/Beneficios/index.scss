@@ -1,0 +1,127 @@
+#beneficios{
+    background-color: #E5E5E5;    
+    
+    .beneficios__header__container{
+        height: 600px;        
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        
+        
+        .beneficios__header{
+            h1{            
+                width: 885px;
+                color:#141DF0;
+                font-weight: 500;
+                line-height: 127%;            
+                margin-bottom: 30px;
+                font-size: 40px;
+                
+            }
+            p{
+                width: 632px;
+                font-size: 24px;
+            }
+        }        
+        img{            
+            width: 400px;
+            height: 421px;
+            margin-left: -70px;
+            
+        }
+        
+    }
+    .beneficios__seccion_uno__container{
+        height: 391px;
+        background-color: #141DF0;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .beneficios__seccion_uno{
+            width: 1095px;
+            h2{
+                font-size: 36px;
+                color: #FFFFFF;
+                line-height: 127%;
+                font-size: 500;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 24px;
+                line-height: 38px;
+                
+            }
+        }
+    }
+    .beneficios__seccion_dos__container{
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 66px;
+        padding-left: 72px;
+        padding-right: 95px;
+        padding-bottom: 30px;
+        .beneficios__seccion_dos__titulo__texto{
+            width: 777px;
+            h2{
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 127%;
+                margin-bottom: 25px;
+                
+            }
+            p{
+                width: 634px;
+                font-size: 24px;                
+                line-height: 38px;
+            }
+            .beneficios__seccion_dos_button{
+                width: 435px;
+                height: 55px;
+                border-radius: 30px;
+                background: #141DF0;
+                color: #FFFFFF;
+                line-height: 38px;
+                font-size: 24px;
+                border: none;
+                margin-top: 30px;
+            }
+            .beneficios__seccion_dos_button:hover{
+                background: #231F20;
+            }
+
+        }
+        .beneficios__seccion_dos__imagen__container{
+            width: 513px;
+            height: 390px;           
+            
+            .beneficios__seccion_dos__imagen{
+                position: absolute;
+            }
+            .beneficios__seccion_dos__circulo{                
+                position: relative;
+                border-radius: 120px;
+                width: 152px;
+                height: 152px;
+                background-color: #141DF0;
+                left: 300px;
+                top: -20px;
+                text-align: center;
+                
+                p{
+                    position: relative;
+                    width: 123px;
+                    color: #FFFFFF;                    
+                    font-size: 24px;
+                    left: 15px;
+                    top: 30px;
+                    transform: rotate(29.27deg);
+                    line-height: 107%;
+                }
+            }
+        }
+    }
+
+}

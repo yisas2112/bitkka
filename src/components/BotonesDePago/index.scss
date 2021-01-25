@@ -1,0 +1,174 @@
+#botonesDePago{    
+    background-color: #E5E5E5;
+    .botonedepago__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+               
+        
+        .botondepago__imagen{        
+            width: 539px;
+            height: 738px;
+            margin-right: 75px;
+            margin-top: 46px;
+            img{
+                width: 100%;
+
+            }
+        }
+        .botondepago__texto{
+            width: 606px;
+            margin-top: 46px;
+            h1{
+                width: 458px;
+                color: #141DF0;
+                font-weight: 500;
+                font-size: 40px;
+                
+            }
+            p{
+                font-size: 24px;
+                font-weight: 300px;
+                
+            }
+        }
+    }
+    .tiposdebotones__container{        
+        width: 730px;
+        margin-left: 5%;    
+        margin-top: 103px;
+        
+        .tipodebotones_titulo{            
+            h2{
+                font-size: 40px;
+                width: 682px;
+                font-weight: 500;
+                margin-bottom: 34px;
+                
+            }
+        }
+        .tiposdebotones__botones{
+                display: flex;
+                flex-direction: column;  
+                
+            h3{
+                width: 540px;
+                font-size: 36px;
+                margin-bottom: 34px;
+            }
+            .tipodebotones__button{
+                border: none;
+                background-color: #E5E5E5;
+                width: 70px;
+                margin-bottom: 79px;
+                
+                .tiposdebotones__image{
+                    position: absolute;
+                    width: 700px;
+                    height: 120px;
+                }
+                .tiposdebotones__image__hover{
+                    
+                    width: 700px;
+                    height: 120px;
+                }                   
+                
+            }
+            .tipodebotones__button:hover{
+                .tiposdebotones__image{
+                    
+                    
+                }
+                .tiposdebotones__image__hover{
+                    position: relative;
+                    
+                }
+            }
+
+            .tipodebotones__parrafo{                
+                width: 706px;
+                font-size: 24px;
+                line-height: 38px;
+                margin-left: 352px;
+                margin-bottom: 63px;
+                
+                
+            }
+        }        
+    }
+    .instalacion__container{
+        margin-left: 5%;
+        .instalacion__titulo{
+            h2{
+                font-size: 40px;
+                font-weight: 500;
+                margin-bottom: 47px;
+            }
+        }
+        .instalacion__descripcion{
+            width: 777px;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        .instalacion__pasos{
+            display: flex;
+            margin-bottom: 69px;
+            
+            .instalacion__pasos__circulo{                    
+                width: 93px;
+                height: 93px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                img{
+                    position: absolute;
+                    width: 93px;
+                    height: 93px;
+                }
+                p{
+                    position: relative;
+                    font-size: 64px;
+                    color: #FFFFFF;
+                    transform: rotate(-17.83deg);
+                    font-weight: 900;
+                    top: 5px;
+                }
+            }
+            .instalacion__pasos__texto{
+                align-self: center;
+                margin-left: 32px;
+                font-size: 28px;
+                font-weight: bold;
+            }            
+        }
+        .instalacion__soporte{
+            font-size: 24px;
+            font-weight: 500; 
+            margin-top: 97px;
+            
+        }
+        .instalacion__button__container{
+            display: flex;
+            justify-content: center;
+            margin-top: 54px;
+            
+            
+            .instalacion__button{
+                width: 435px;
+                height: 55px;
+                background-color: #141DF0;
+                border-radius: 30px;
+                border: none;
+                color: #FFFFFF;
+                font-size: 24px;
+                margin-bottom: 100px;
+                
+            }
+        }
+    }
+    .borde__blue__boton{
+        height: 289px;
+        background-color: #141DF0;
+    }
+}
