@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bitkka/static/css/main.ddbe01da.chunk.css",
-    "main.js": "/bitkka/static/js/main.86f872a4.chunk.js",
-    "main.js.map": "/bitkka/static/js/main.86f872a4.chunk.js.map",
+    "main.css": "/bitkka/static/css/main.88722909.chunk.css",
+    "main.js": "/bitkka/static/js/main.c149c10b.chunk.js",
+    "main.js.map": "/bitkka/static/js/main.c149c10b.chunk.js.map",
     "runtime-main.js": "/bitkka/static/js/runtime-main.ed2bae44.js",
     "runtime-main.js.map": "/bitkka/static/js/runtime-main.ed2bae44.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/bitkka/static/css/2.ae9f1eb3.chunk.css",
@@ -10,11 +10,12 @@
     "static/js/2.d10d245f.chunk.js.map": "/bitkka/static/js/2.d10d245f.chunk.js.map",
     "index.html": "/bitkka/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/bitkka/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.ddbe01da.chunk.css.map": "/bitkka/static/css/main.ddbe01da.chunk.css.map",
+    "static/css/main.88722909.chunk.css.map": "/bitkka/static/css/main.88722909.chunk.css.map",
     "static/js/2.d10d245f.chunk.js.LICENSE.txt": "/bitkka/static/js/2.d10d245f.chunk.js.LICENSE.txt",
     "static/media/beneficiosimagensegunda.9eea61bd.svg": "/bitkka/static/media/beneficiosimagensegunda.9eea61bd.svg",
     "static/media/beneficiosprimerimagen.e4fffd5b.svg": "/bitkka/static/media/beneficiosprimerimagen.e4fffd5b.svg",
     "static/media/botonesdepago.53826739.svg": "/bitkka/static/media/botonesdepago.53826739.svg",
+    "static/media/btn_logo.54c254c0.svg": "/bitkka/static/media/btn_logo.54c254c0.svg",
     "static/media/donarconbitcoin.da1e280e.svg": "/bitkka/static/media/donarconbitcoin.da1e280e.svg",
     "static/media/donarconbitcoinhover.57aa998e.svg": "/bitkka/static/media/donarconbitcoinhover.57aa998e.svg",
     "static/media/homecuartasecciondos.e1f3b34f.svg": "/bitkka/static/media/homecuartasecciondos.e1f3b34f.svg",
@@ -41,7 +42,7 @@
     "static/js/runtime-main.ed2bae44.js",
     "static/css/2.ae9f1eb3.chunk.css",
     "static/js/2.d10d245f.chunk.js",
-    "static/css/main.ddbe01da.chunk.css",
-    "static/js/main.86f872a4.chunk.js"
+    "static/css/main.88722909.chunk.css",
+    "static/js/main.c149c10b.chunk.js"
   ]
 }
