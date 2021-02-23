@@ -1,17 +1,23 @@
 #home{    
     width: 100%;
-    background-color: #E5E5E5;           
+    background-color: #FFFFFF;   
+    display: flex;
+    flex-direction: column;
 
     .images__home{                                
         height: 500px;
         display: flex;
-        align-items: center;
+        align-items: center;    
         justify-content: center;
         
         .imagenHome{  
             position: absolute;
             width: 100%;
             height: 479px;
+        }
+
+        .imagenHomeMobile{
+            display: none;
         }
 
 
@@ -42,24 +48,25 @@
 
         
     }
-    .home__pastillas{             
+    .home__pastillas{                     
         color: #141DF0;
         display: flex;        
-        justify-content: center;
-        text-align: center;
-        height: 97px;
-
-        .home__pastillas__items{
+        flex-direction: row;        
+        align-content: center;
+        align-items: center;
+        .home__pastillas__items{                                    
             width: 500px;            
-            font-size: 24px;                
-            border-right:#141DF0 solid ;
-            
+            font-size: 18px;                            
+            text-align: center;
+            font-weight: 500;    
         }
-        .home__pastillas__items_sinborde{
-            width: 500px;
-            
-            font-size: 24px;
-            
+        .home__pastillas__divisor{
+            width: 3px;
+            height: 97px;
+            background-color: rgb(20, 29, 240);
+        }        
+        button{
+            display: none;
         }
     }
     .home__ventajas{
@@ -70,28 +77,36 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        h2{
-            color: #FFFFFF;;
-            font-size: 40px;
-            margin-bottom: 15px;
-            
-            
-        }
-        .home__ventajas__texto{
-            font-size: 24px;
-            height: 100px;
-            width: 361px;
-        }
-        .home__ventajas__divisor{
-            height: 2px;
+        .home__ventajas__texto__container{
             width: 563px;
-            background-color:#FFFFFF ;
-            margin-bottom: 7px;
-        }
-        .home__ventajas__image{
-            width: 100%;
-            height: 351px;
-            margin-left: 127px;
+            margin-right: 127px;
+            h2{
+                color: #FFFFFF;;                
+                margin-bottom: 30px;
+                
+                
+            }
+            .home__ventajas__texto{
+                font-size: 18px;
+                height: 60px;
+                width: 361px;
+
+                
+            }
+            .home__ventajas__divisor{
+                height: 2px;                
+                background-color:#FFFFFF ;
+                margin-bottom: 30px;
+            }
+            .home__ventajas__image__container{
+                width: 347px;
+                height: 351px;
+                .home__ventajas__image{            
+                    width: 100%;
+                    
+                    
+                }
+            }
         }
     }
 
@@ -101,22 +116,20 @@
         justify-content: center;
         align-items: center; 
         h2{
-            width: 397px;
-            font-size: 42px;
+            width: 397px;            
             margin-bottom: 61px;
         }       
         .home__integracion__image__container{
             margin-right: 191px;
-        .home__integracion__image{
-            width: 100%;
-            height: 454px;
-            
-        }
+            .home__integracion__image{
+                width: 100%;
+                height: 454px;            
+            }
         }
 
         .home__integracion__text{
             width: 280px;
-            font-size: 24px;            
+            font-size: 18px;            
         }
 
         .home__integracion__divisor{
@@ -130,30 +143,30 @@
     }
 
     .home__seccionblack{
-        height: 656px;
+        height: 600px;
         background-color: #231F20;
         display: flex;
         justify-content: space-around;
         align-items: center;
         
         .home__seccionblackContent{
-            width: 342px;
-            height: 500px;            
+            width: 342px;            
             text-align: left;
         .home__seccionblackContent__images{
             width: 100%;
             height: 236px;
             margin-bottom: 37px;
         }
-        .home__seccionblackContent__divisor{
-            
+        .home__seccionblackContent__divisor{            
             height: 1px;
             background-color: #FFFFFF;            
             margin-bottom: 18px;
         }
             .home__seccionblackContent__text{
                 color: #FFFFFF;
-                font-size: 40px;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
                 
             }
         }
@@ -177,17 +190,16 @@
             height: 237px;                        
             h2{
                 width: 701px;
-                height: 73px;
-                font-size: 40px ;
+                height: 73px;                
                 font-style: normal;                
-                font-weight: 700;
+                font-weight: 500;
                 margin-bottom: 9px;
             }
 
             .home__streamersyoutbers__text__info{
                 height: 83px;
                 width: 562px;
-                font-size: 24px;
+                font-size: 20px;
                 margin-top: 9px;
                 margin-bottom: 59px;
                 border-bottom: #000000 solid 2px;
@@ -196,7 +208,7 @@
         }        
     }
     .home_vendeproductosservicios{
-        height: 596px;
+        height: 500px;
         background-color: #141DF0;
         display: flex;
         justify-content: center;
@@ -209,15 +221,14 @@
             
             h2{
                 color: #FFFFFF;
-                width: 472px;
-                font-size: 40px;
+                width: 472px;                
                 margin-bottom: 47px;
                 
             }
             .home_vendeproductosservicios__text__info{
                 width: 460px;
                 height: 50px;
-                font-size: 24px;
+                font-size: 18px;
                 border-bottom: #FFFFFF solid 2px;
                 margin-bottom: 28px;
             }
@@ -251,11 +262,9 @@
             .home__seguridad__titulo_container{                
                 display: flex;
                 margin-bottom: 33px;
-                align-items: center;
-                
+                align-items: center;                
                 h2{
-                    height: 73px;
-                    font-size: 40px;
+                    height: 73px;                    
                     width: 324px;
                     font-weight: 600;
                     
@@ -285,8 +294,8 @@
             }
             .home__seguridad__text{
                 height: 59px;
-                font-size: 24px;
-                border-bottom: #000000 solid 1px;
+                font-size: 18px;
+                border-bottom: #000000 solid 2px;
                 margin-bottom: 59px;
 
             }
@@ -296,4 +305,210 @@
     
 
     
+}
+
+@media only screen and (max-width: 600px) {
+    #home{        
+        .images__home{
+            margin-top: 70px;              
+            height: 400px;          
+            width: 100%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            .imagenHome{   
+                display: none;
+            
+            }
+            
+            .imagenHomeMobile{
+                display: flex;
+                position: absolute;
+
+            }
+
+            .logoHome{
+                width: 312px;
+                height: 58px;
+                position: absolute;
+                left: 10%;
+                top: 350px;
+
+            }
+            .textoHome_container{
+                height: 50px;            
+                .textoHome{
+                    width: 300px;                    
+                    left: auto;                    
+                    font-size: 24px;                    
+                    font-weight: normal;
+                    color: #000000;
+                    line-height: 107%;
+                    
+                    
+                }
+            }
+        }
+        .home__pastillas{
+            width: 100%;
+            height: 370px;
+            flex-direction: column;
+            position: relative;
+            top: 70px;
+            .home__pastillas__items{
+                width: 250px;
+                margin-bottom: 20px;
+            }
+            .home__pastillas__divisor{
+                width: 60px;
+                height: 2px;
+                margin-bottom: 20px;
+            }
+            button{
+                width: 248px;
+                height: 60px;
+                display: flex;
+                text-align: center;
+                align-items: center;
+                background-color: #141DF0;
+                border: none;
+                border-radius: 30px;
+                color: #FFFFFF;
+
+            }
+        }
+        .home__ventajas{
+            width: 100%;
+            height: 700px;
+            flex-direction: column;    
+            text-align: center;
+            padding: 0;
+            .home__ventajas__texto__container{                
+                width: 250px;
+                margin: 0;
+                text-align: center;               
+                
+                .home__ventajas__texto{
+                    position: relative;
+                    top: 240px;
+                    width: 100%;
+                    margin-bottom: 15px;
+                    
+                }
+                .home__ventajas__divisor{
+                    width: 100%;
+                    position: relative;
+                    top: 240px;
+                }
+            }
+            .home__ventajas__image__container{
+                position: relative;                    
+                top: -340px;
+                .home__ventajas__image{
+                    width: 212px;
+                    height: 215px;
+                    
+                }
+                
+            }   
+        }
+        .home__integracion{
+            height: 680px;
+            flex-direction: column;
+            width: 100%;            
+            .home__integracion__image__container{
+                margin:0;
+                .home__integracion__image{                    
+                    width: 313px;
+                    height: 243px;
+                    margin-top: 70px;
+                }
+            }
+            .home__integracion__text_container{
+                height: 300px;
+                h2{
+                    position: relative;
+                    width: 250px;
+                    margin-bottom: 0;
+                    top: -310px;
+                }
+                .home__integracion__text{
+                    width: 300px;
+                }
+                .home__integracion__divisor{
+                    width: 300px;
+                }            
+            }
+        }
+        .home__seccionblack{
+            width: 100%;
+            flex-direction: column;            
+            height: 1250px;
+            .home__seccionblackContent{
+                width: 313px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;    
+                align-items: center;
+                .home__seccionblackContent__images{
+                    width: 210px;
+                    height: 222px;
+                }
+                .home__seccionblackContent__divisor{
+                    width: 100%;
+                    margin: auto;
+                    
+                }
+                .home__seccionblackContent__text{
+                    width: 300px;
+                    margin-top: 18px;
+                    text-align: start;
+                }
+
+                
+            }
+        }
+        .home__streamersyoutbers{
+            display: none;
+        }
+
+        .home_vendeproductosservicios{
+            display: none;
+        }
+        .home__seguridad__container{
+            flex-direction: column;
+            width: 100%;
+            height: 750px;
+            .home__seguridad__image{
+                position: relative;
+                width: 313px;
+                height: 303px;
+                margin: auto;
+                top: 90px;
+            }
+            .home__seguridad__text__container{    
+                width: 315px;
+                text-align: center;
+                h2{
+                    position: relative;
+                    top: -270px;
+                }
+                .home__seguridad__titulo_container{
+                    img{
+                        display: none;
+                        
+                    }
+                    p{
+                        display: none;
+                    }                    
+                }
+                .home__seguridad__text{
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+
 }

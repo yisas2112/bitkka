@@ -12,31 +12,35 @@ import HomeStreamersYoutubers from '../../images/secctionstreamers.svg'
 import HomeProductosServicios from '../../images/vendeproductosyservicvios.svg'
 import HomeSeguridad from '../../images/homeseguridad.svg'
 import HomeSeguridadCirculo from '../../images/homeseguridadcirculo.svg'
+import ImagenHomeMobile from '../../images/imagenHomeMobile.svg'
 const Home = ()=>{
     return <>
         <div id='home'>            
             <div className='container images__home mb-3'>
                 <img className='imagenHome' src={imageHome}></img>
+                <img className='imagenHomeMobile' src={ImagenHomeMobile}></img>
                 <img className='logoHome' src={logoHome}></img>
                 <div className='textoHome_container'>
                 <h1 className='textoHome'>La Primer Plataforma de cripto-pagos</h1>
                 </div>
                 
-            </div> 
-            
+            </div>             
             <div className='home__pastillas container-fluid mb-4'>
                 <div className='home__pastillas__items'>
                     ¡Cobrá al instante en Bitcoin!
                 </div>
+                <div className='home__pastillas__divisor'></div>
                 <div className='home__pastillas__items'>
                     Vendé tu Productos y Servicios al Mundo.
                 </div>
-                <div className='home__pastillas__items_sinborde'>
+                <div className='home__pastillas__divisor'></div>
+                <div className='home__pastillas__items'>
                     Recibe Donaciones para tu Proyecto
                 </div>
+                <button>¡Comienza ya a cobrar en bitcoins!</button>
             </div> 
-            <div className='home__ventajas container-fluid'>                
-                <div>
+            <div className='home__ventajas'>                
+                <div className='home__ventajas__texto__container'>
                     <h2>Ventajas</h2>
                     <div className='home__ventajas__texto'>
                         Sin necesidad de asociar una Tarjeta de Crédito
@@ -51,7 +55,7 @@ const Home = ()=>{
                     </div>
                     <div className='home__ventajas__divisor'></div>
                 </div>
-                <div>
+                <div className='home__ventajas__image__container'>
                     <img src={homeVentajas} className='home__ventajas__image'/>
                 </div>
             </div>
@@ -59,7 +63,7 @@ const Home = ()=>{
                 <div className='home__integracion__image__container'>
                     <img className='home__integracion__image' src={homeIntegracion}/>
                 </div>
-                <div>
+                <div className='home__integracion__text_container'>
                     <h2>Integración en Minutos</h2>
                     <div className='home__integracion__text'>
                         Abre tu Cuenta

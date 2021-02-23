@@ -1,23 +1,20 @@
-#nosotros{        
-    height: 1100px;
-    background: #E5E5E5;
+#nosotros{  
+    background-color: #FFFFFF;    
     display: flex;
-    flex-direction: row;
-    padding-left: 60px;
-    align-items: center;
+    flex-direction: row;        
+    align-items: center;    
     .nosotros__texto__container{
-        
-        h1{
-            width: 930px;
-            font-size: 40px;
+        margin-top: 60px;
+        height: 800px;
+        h1{            
+            width: 930px;            
             color: #141DF0;
             font-weight: 500;
             line-height: 127%;
             margin-bottom: 50px;
         }
         p{
-            width: 692px;
-            font-size: 24px;
+            width: 692px;            
             line-height: 38px;
             margin-bottom: 30px;
             font-weight: normal;
@@ -26,10 +23,10 @@
     }
     .nosotros__image{
         position: absolute;
-        width: 600px;
+        width: 550px;
         height: 713px;                                
         top: 200px;
-        right: 0;
+        right: 0px;
         img{
             width: 100%;
             
@@ -38,3 +35,4 @@
         }
     }
 }
+

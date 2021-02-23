@@ -4,10 +4,11 @@ import ImagenBotonesDePago from '../../images/botonesdepago.svg'
 import DonarConBitcoin from '../../images/donarconbitcoin.svg'
 import DonarConBitcoinHover from '../../images/donarconbitcoinhover.svg'
 import Circulo from '../../images/homeseguridadcirculo.svg'
+import LogoBtn from '../../images/btn_logo.svg'
 
 const BotonesDePago = ()=>{
     return <>
-        <div id='botonesDePago'>            
+        <div id='botonesDePago' className='container'>            
             <div className='botonedepago__container'>
                 <div className='botondepago__imagen'>
                     <img src={ImagenBotonesDePago}/>
@@ -34,8 +35,13 @@ const BotonesDePago = ()=>{
                     <h2>Tipos de Botones</h2>                    
                 </div>
                 <div className='tiposdebotones__botones'>
-                    <h3>Boton de Importe Fijo</h3>
-                    <button className='tipodebotones__button'><img className='tiposdebotones__image' src={DonarConBitcoin}/><img className='tiposdebotones__image__hover' src={DonarConBitcoinHover}/></button>                    
+                    <h3>Boton de Importe Fijo</h3>                    
+                    <button className='btn__prueba'>
+                    <div className='container__button'>
+                        <div className='btn_image'><img src={LogoBtn}></img></div>                    
+                        <div className='btn__text'><b>COMPRAR</b> con Bitcoin </div>
+                    </div>
+                    </button>
                     <p className='tipodebotones__parrafo' >Esta opción permite crear un botón de pago para un producto o servicio con importe
                         fijo, un precio único según lo preestablecido al momento de crear el botón.
                         
@@ -44,7 +50,12 @@ const BotonesDePago = ()=>{
                 </div>
                 <div className='tiposdebotones__botones'>
                     <h3>Boton de Importe Variable</h3>
-                    <button className='tipodebotones__button'><img className='tiposdebotones__image' src={DonarConBitcoin}/><img className='tiposdebotones__image__hover' src={DonarConBitcoinHover}/></button>                                                            
+                    <button className='btn__prueba'>
+                    <div className='container__button'>
+                        <div className='btn_image'><img src={LogoBtn}></img></div>                    
+                        <div className='btn__text'><b>COMPRAR</b> con Bitcoin </div>
+                    </div>
+                    </button>
                     <p className='tipodebotones__parrafo'>Esta opción permite crear un botón de pago con la descripción de un producto o
                     servicio en particular, pero sin un precio fijo. El cliente es quien colocara el importe a
                     pagar luego de accionar el botón de pago.
@@ -84,8 +95,7 @@ const BotonesDePago = ()=>{
                 <div className='instalacion__button__container'>
                 <button className='instalacion__button'>¡Comienza ya a cobrar en bitcoins!</button>
                 </div>
-            </div>
-            <div className='borde__blue__boton'></div>
+            </div>            
         </div>
     </>
 }

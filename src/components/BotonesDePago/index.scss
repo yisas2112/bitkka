@@ -1,10 +1,9 @@
 #botonesDePago{    
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     .botonedepago__container{
         display: flex;
         align-items: center;
         justify-content: center;
-               
         
         .botondepago__imagen{        
             width: 539px;
@@ -23,11 +22,11 @@
                 width: 458px;
                 color: #141DF0;
                 font-weight: 500;
-                font-size: 40px;
+                
                 
             }
             p{
-                font-size: 24px;
+                
                 font-weight: 300px;
                 
             }
@@ -40,7 +39,7 @@
         
         .tipodebotones_titulo{            
             h2{
-                font-size: 40px;
+                
                 width: 682px;
                 font-weight: 500;
                 margin-bottom: 34px;
@@ -53,61 +52,81 @@
                 
             h3{
                 width: 540px;
-                font-size: 36px;
+                
                 margin-bottom: 34px;
             }
-            .tipodebotones__button{
-                border: none;
-                background-color: #E5E5E5;
-                width: 70px;
-                margin-bottom: 79px;
-                
-                .tiposdebotones__image{
-                    position: absolute;
-                    width: 700px;
-                    height: 120px;
-                }
-                .tiposdebotones__image__hover{
-                    
-                    width: 700px;
-                    height: 120px;
-                }                   
-                
-            }
-            .tipodebotones__button:hover{
-                .tiposdebotones__image{
-                    
-                    
-                }
-                .tiposdebotones__image__hover{
-                    position: relative;
-                    
-                }
-            }
-
             .tipodebotones__parrafo{                
                 width: 706px;
-                font-size: 24px;
+                font-size: 18px;
                 line-height: 38px;
                 margin-left: 352px;
                 margin-bottom: 63px;
                 
                 
             }
+            .btn__prueba{
+                .container__button{
+                    width: 90%;
+                    margin: 0px auto;
+                    display: flex;
+                    -webkit-box-align: center;
+                    align-items: center;
+                    .btn_image{                        
+                    width: 18px;
+                    z-index: 1;
+                    display: flex;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .btn__text{
+                        margin-left: 30px;
+                        font-size: 20px;
+                        
+                        z-index: 1;
+                    }
+                }
+
+                background-color: rgb(20, 29, 240);
+                width: 300px;
+                height: 45px;
+                border-radius: 10px;
+                border: 0.5px solid rgb(78, 85, 244);
+                color: rgb(255, 255, 255);
+                position: relative;
+                overflow: hidden;
+                transition: all 0.3s ease-in-out 0s;
+                padding: 1px 6px;
+            }
+            .btn__prueba::before{
+                content: "";
+                width: 100px;
+                height: 100px;
+                background-color: rgb(255, 255, 255);
+                position: absolute;
+                top: -32px;
+                left: -50px;
+                border-radius: 50%;
+                transition: all 0.3s ease-in-out 0s;
+            }
+            .btn__prueba:hover::before{
+                width: 365px;
+            }
+            .btn__prueba:hover{                
+                color: #000000;
+            }
         }        
     }
     .instalacion__container{
         margin-left: 5%;
         .instalacion__titulo{
-            h2{
-                font-size: 40px;
+            h2{                
                 font-weight: 500;
                 margin-bottom: 47px;
             }
         }
         .instalacion__descripcion{
-            width: 777px;
-            font-size: 24px;
+            width: 777px;            
             font-weight: 400;
         }
         .instalacion__pasos{
@@ -123,12 +142,12 @@
                 
                 img{
                     position: absolute;
-                    width: 93px;
-                    height: 93px;
+                    width: 80px;
+                    height: 80px;
                 }
                 p{
                     position: relative;
-                    font-size: 64px;
+                    font-size: 50px;
                     color: #FFFFFF;
                     transform: rotate(-17.83deg);
                     font-weight: 900;
@@ -138,12 +157,12 @@
             .instalacion__pasos__texto{
                 align-self: center;
                 margin-left: 32px;
-                font-size: 28px;
+                font-size: 20px;
                 font-weight: bold;
             }            
         }
         .instalacion__soporte{
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 500; 
             margin-top: 97px;
             
@@ -163,12 +182,117 @@
                 color: #FFFFFF;
                 font-size: 24px;
                 margin-bottom: 100px;
+                box-shadow: inset 0 0 0 0 black;
+                transition:ease-out 0.3s;
+                
+            }
+            .instalacion__button:hover{
+                box-shadow: inset  450px 0 0 0  black;
+            }
+            
+        }
+    }    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #botonesDePago{
+        width: 100vw;        
+        .botonedepago__container{
+            position: relative;
+            display: block;
+            width: 100%;
+            top: 130px;
+            height: 1200px;     
+            box-sizing: border-box;                  
+            
+            .botondepago__imagen{
+                position: relative;
+                top: 100px;
+                width: 200px;
+                height: 260px;
+                margin: auto;
+            }
+            .botondepago__texto{                
+                width: 100%;
+                top: 150px;
+                text-align: center;
+                h1{
+                    position: relative;
+                    top: -300px; 
+                    width: 100%;
+                }
                 
             }
         }
+        .tiposdebotones__container{
+            width: 100%;
+            margin: auto;
+            height: 1100px;      
+            text-align: center;            
+            
+            .tipodebotones_titulo{
+                h2{
+                    width: 100%;
+                }
+            }
+            
+            .tiposdebotones__botones{                
+                width: 100%;
+                align-items: center;
+                h3{
+                    width: 100%;
+                }
+                .btn__prueba{
+                    margin-bottom: 10px;
+                }
+                .tipodebotones__parrafo{
+                    width: 300px;
+                    margin: 15px 0 25px 0;
+                }
+            }
+            
+        }
+        .instalacion__container{
+            width: 100%;
+            margin: auto;
+            height: 1000px;
+            text-align: center;
+            .instalacion__titulo{
+                width: 100%;                
+                h2{                    
+                    margin-bottom: 15px;
+                }                
+            }
+            .instalacion__descripcion{
+                width: 100%;
+                line-height: 38px;
+            }
+            .instalacion__pasos{
+                width: 100%;
+                margin: 15px 0;
+
+                .instalacion__pasos__texto{
+                    width: 193px;
+                    font-size: 18px;
+                    line-height: 30px;
+                    
+                }
+            }
+            .instalacion__soporte{
+                margin: 70px 0;
+            }
+            .instalacion__button__container{
+                margin: auto;
+                width: 248px;
+                height: 65px;
+                .instalacion__button{
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
     }
-    .borde__blue__boton{
-        height: 289px;
-        background-color: #141DF0;
-    }
+
 }

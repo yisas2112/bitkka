@@ -3,7 +3,7 @@ import './index.scss'
 import Imagen from '../../images/nosotros.svg'
 const Nosotros = () =>{
     return <>
-        <div id='nosotros'>
+        <div id='nosotros' className='container'>
             <div className='nosotros__texto__container'>
                 <h1>Nuestro Grupo tiene 10 años en el mercado operando su conjunto de empresas
                 vinculadas al desarrollo de tecnologías orientadas a dar soluciones de pagos a nuestros

@@ -13,14 +13,14 @@
             justify-content: center;
             h2{
                 color:#FFFFFF;
-                font-size: 40px;
+                
             }
 
             .footer__soporte__text__info{
                 height: 80px;
                 width: 373px;
-                font-size: 24px;
-                margin-bottom: 40px;
+                font-size: 18px;
+                margin-bottom: 20px;
                 font-weight: 300;
                 margin-top: 15px;
                 border-bottom: #FFFFFF solid 1px;
@@ -32,8 +32,7 @@
         width: 570px;
         height: 400px;
         img{
-            width: 100%;
-         
+            width: 100%;         
         }
     }
 
@@ -49,13 +48,13 @@
         .footer__contacto__columnas{
             display: flex;
             flex-direction: row;
-            justify-content: space-around;
+            justify-content: space-evenly;
             
             .footer__contacto__column{
                 width: 200px;
+                
                 h3{
-                    color: #000000;
-                    font-size: 24px;
+                    color: #000000;                    
                     font-weight: 600;
                     margin-bottom: 15px;
                 }
@@ -63,7 +62,7 @@
                     width: 129px;
                     height: 40px;
                     left: 1133px;
-                    top: 29px;
+                    top: 29px;                    
                     background-color: #FFFFFF;
                     border-radius: 30px;
                     color: #141DF0;
@@ -82,6 +81,7 @@
                     margin-bottom: 30px;                
                     font-weight: 300;
                     text-decoration: none;
+                    font-size: 18px;
                     
                 }   
             }   
@@ -109,4 +109,54 @@
 
     }
     
+}
+
+@media only screen and (max-width: 600px) {
+    #Footer{
+        .footer__soporte_container{
+            display: none;
+        }
+        .footer__contacto__container{
+            width: 100%;
+            height: 1150px;
+            text-align: center;
+            margin: auto;            
+            .footer__contacto_logo{
+                margin: 47px 0;
+            }
+            .footer__contacto__columnas{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                
+                
+                button{
+                    margin: auto;
+                }
+                .footer__icons__redes__container{
+                    width: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    margin: auto;
+                    .footer__icons__redes{
+                        margin: 15px 0;
+                        align-self: center;
+                    }
+                }
+                .footer__contacto__column{
+                    width: 286px;
+                    
+                }
+            }
+            .footer__derechos{
+                width: 100%;
+                flex-direction: column;
+
+                .footer__derechosreservados__datos{
+                    width: 242px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
 }

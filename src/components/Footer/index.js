@@ -15,6 +15,9 @@ const Footer = ()=>{
             top:0,
             behavior: 'smooth'
         })
+         $(".nav-item").removeClass("active");                          
+         document.getElementById('logo').style.display = 'none';
+         document.getElementById('logosecciones').style.display = 'block';
             
         
     }
@@ -42,9 +45,9 @@ const Footer = ()=>{
                 <div className='footer__contacto__columnas'>
                     <div className='footer__contacto__column'>
                         <h3>Comunidad</h3>
+                        <button href="#">Iniciar Sesión</button>
                         <button href="#">Crear Cuenta</button>
-                        <button href="#">Crear Cuenta</button>
-                        <div>
+                        <div className='footer__icons__redes__container'>
                         <FontAwesomeIcon className='footer__icons__redes' icon={faFacebookSquare} />
                         <FontAwesomeIcon className='footer__icons__redes' icon={faInstagram} />
                         <FontAwesomeIcon className='footer__icons__redes' icon={faTwitter} />                            
@@ -52,14 +55,14 @@ const Footer = ()=>{
                     </div>
                     <div className='footer__contacto__column'>
                         <h3>Servicios</h3>
-                        <a href="#">Botones de Pago</a>
-                        <a href="#">Vender con BTC</a>
+                        <Link to='/bitkka/botonesdepago' onClick={onClickUp}>Botones de Pago</Link>
+                        <Link to='/bitkka/venderconbtc' onClick={onClickUp}>Vender con BTC</Link>
                         <Link to='/bitkka/tarifas' onClick={onClickUp}>Tarifas</Link>
                     </div>
                     <div className='footer__contacto__column'>
                         <h3>Politicas</h3>
                         <Link to='/bitkka/privacidad' onClick={onClickUp}>Politica de Privacidad KYC/AML</Link>
-                        <a href="#">Términos, Acuerdos Legales y Condiciones</a>
+                        <Link to='/bitkka/terminosycondiciones'>Términos, Acuerdos Legales y Condiciones</Link>
                              
                     </div>
                     <div className='footer__contacto__column'>

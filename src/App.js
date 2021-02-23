@@ -11,6 +11,7 @@ import Nosotros from './components/Nosotros';
 import Contacto from './components//contacto';
 import Tarifas from './components/Tarifas';
 import Privacidad from './components/privacidad';
+import Terminos from './components/Terminos';
 
 
 function App() {
@@ -42,6 +43,9 @@ function App() {
     </Route>
     <Route exact path='/bitkka/privacidad'>
       <Privacidad/>
+    </Route>
+    <Route exact path='/bitkka/terminosycondiciones'>
+      <Terminos/>
     </Route>
   </Switch>
   <Footer/>

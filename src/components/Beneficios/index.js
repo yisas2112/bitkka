@@ -18,8 +18,7 @@ const Beneficios = ()=>{
                         pero nos exponemos a maniobras como cancelaciones de pagos luego de entregar
                         nuestros productos o servicios.
                     </p>
-                </div>
-                
+                </div>                
                     <img src={PrimerImagen}/>
                 
             </div>
@@ -33,7 +32,7 @@ const Beneficios = ()=>{
                     </p>
                 </div>
             </div>
-            <div className='beneficios__seccion_dos__container'>
+            <div className='beneficios__seccion_dos__container container'>
                 <div className='beneficios__seccion_dos__titulo__texto'>
                     <h2>En Bitkkahpay no existe la posibilidad de bloqueo de fondos para el comerciante. </h2>
                     <div>

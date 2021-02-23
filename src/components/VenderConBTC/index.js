@@ -3,7 +3,7 @@ import './index.scss';
 import ImagenHeader from '../../images/recibetuspagos.svg'
 const VenderConBTC = ()=>{
     return <>
-    <div id='VenderConBTC'>
+    <div id='VenderConBTC' className='container'>
         <div className='venderConBTC__titulo__imagen'>
             <div className='venderConBTC__titulo__texto'>
                 <h2>Recibe tus pagos en criptomonedas al instante</h2>
@@ -20,10 +20,11 @@ const VenderConBTC = ()=>{
                 la información del cliente para poder contactarlo y hacer entrega del producto o
                 servicio.
                 </p>
+                <button className='venderConBTC__btn'><a href='#'> ¡Comienza ya a cobrar en bitcoins!</a></button>
             </div>
             <img src={ImagenHeader}/>               
         </div>
-        <button className='venderConBTC__btn'>¡Comienza ya a cobrar en bitcoins!</button>
+        
         <div className='vendeConBTC__more__info'>
             <div className='vendeConBTC__more__info__texto'>
                 <h2>Cobra en bitcoin, la moneda del momento</h2>
