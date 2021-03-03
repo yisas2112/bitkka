@@ -20,8 +20,11 @@
             p{
                 width: 632px;                
             }
-        }        
-        img{            
+        }  
+        .PrimeraImagenMobile{
+            display: none;
+        }      
+        .PrimeraImagen{            
             width: 400px;
             height: 421px;
             margin-left: -70px;
@@ -116,6 +119,97 @@
                     transform: rotate(29.27deg);
                     line-height: 107%;
                 }
+            }
+        }
+    }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    #beneficios{
+        width: 100%;
+        padding-top: 150px;
+        text-align: center;
+        
+
+        .beneficios__header__container{                                    
+            height: 900px;
+            flex-direction: column;
+            .beneficios__header{                
+                width: 300px;
+                margin-top: 250px;
+                h1{
+                    width: 100%;
+                    margin-bottom: 350px;
+                }
+                p{
+                    width: 100%;
+                }
+            }
+            .PrimeraImagenMobile{
+                position: relative;
+                top: -700px;
+                display: flex;
+            }
+            .PrimeraImagen{
+                display: none;
+            }
+        }
+        .beneficios__seccion_uno__container{
+            width: 100%;
+            background-color: #231F20;
+            height: 700px;
+            .beneficios__seccion_uno{
+                width: 300px;
+            }
+        }
+        .beneficios__seccion_dos__container{
+            width: 100%;
+            height: 1100px;
+            flex-direction: column;                       
+            
+            .beneficios__seccion_dos__titulo__texto{
+                width: 300px;
+                margin-bottom: 30px;
+                .beneficios__seccion_dos__text{
+                    p{
+                        width: 300px;
+                    }
+                }
+                .beneficios__seccion_dos_button{
+                    width: 100%;
+                    font-size: 18px;
+                }
+            }
+            .beneficios__seccion_dos__imagen__container{
+                width: 100%;
+                margin: 0;
+                height: 300px;
+                
+                align-content: center;
+                justify-content: center;
+                
+                .beneficios__seccion_dos__imagen{
+                    position: relative;
+                    width: 300px;
+                    height: 238px;
+                }
+                .beneficios__seccion_dos__circulo{
+                    width: 99px;
+                    height: 99px;             
+                    left: 200px;
+                    top: -250px;
+                    position: relative;
+                    p{
+                        width: 100%;
+                        font-size: 18px;
+                        left: 0;
+                        top: 15px;
+                    }
+                }
+                
             }
         }
     }

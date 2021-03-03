@@ -91,7 +91,7 @@
         justify-content: space-between;
         padding-left: 20px;
         padding-right: 20px;            
-        z-index: 1;
+        z-index: 2;
         position: fixed;
         
         #menu__list__items{
@@ -132,6 +132,7 @@
                 padding-left: 15px;
 
                 li{
+                    margin-bottom: 5px;
                     button{
                         margin-bottom: 15px;
                         

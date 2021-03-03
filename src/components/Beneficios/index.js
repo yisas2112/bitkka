@@ -2,6 +2,7 @@ import React from 'react';
 import './index.scss'
 import PrimerImagen from '../../images/beneficiosprimerimagen.svg'
 import SegundaImagen from '../../images/beneficiosimagensegunda.svg'
+import PrimeraImagenMobile from '../../images/beneficiosprimerimagenmobile.svg'
 
 
 
@@ -19,7 +20,8 @@ const Beneficios = ()=>{
                         nuestros productos o servicios.
                     </p>
                 </div>                
-                    <img src={PrimerImagen}/>
+                    <img className='PrimeraImagen' src={PrimerImagen}/>
+                    <img className='PrimeraImagenMobile' src={PrimeraImagenMobile}/>
                 
             </div>
             <div className='beneficios__seccion_uno__container'>
@@ -35,7 +37,7 @@ const Beneficios = ()=>{
             <div className='beneficios__seccion_dos__container container'>
                 <div className='beneficios__seccion_dos__titulo__texto'>
                     <h2>En Bitkkahpay no existe la posibilidad de bloqueo de fondos para el comerciante. </h2>
-                    <div>
+                    <div className='beneficios__seccion_dos__text'>
                         <p>A diferencia de otras instituciones ya sean bancos u otras plataformas y/o
                         procesadores de pago, nuestro objetivo es proteger siempre la cuenta del comerciante.</p>
                         <p>El cliente acepta nuestros términos y condicione antes de realizar un pago donde se

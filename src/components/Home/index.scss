@@ -48,17 +48,17 @@
 
         
     }
-    .home__pastillas{                     
+    .home__pastillas{        
         color: #141DF0;
         display: flex;        
-        flex-direction: row;        
-        align-content: center;
-        align-items: center;
+        flex-direction: row;                
+        align-items: center;        
         .home__pastillas__items{                                    
             width: 500px;            
             font-size: 18px;                            
             text-align: center;
             font-weight: 500;    
+            margin: auto;
         }
         .home__pastillas__divisor{
             width: 3px;

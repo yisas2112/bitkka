@@ -91,3 +91,48 @@
     }
     
 }
+
+@media only screen and (max-width: 600px) {
+    #VenderConBTC{
+        width: 100%; 
+        text-align: center;     
+        padding-top: 450px;
+        .venderConBTC__titulo__imagen{
+            position: relative;
+            flex-direction: column;
+            height: 1000px;
+
+            .venderConBTC__titulo__texto{
+                width: 100%;
+                
+
+                h2{
+                    margin-bottom: 350px;
+                }
+
+                .venderConBTC__btn{
+                    width: 100%;
+                    font-size: 18px;
+                    margin: 20px 0;
+
+                }
+            }
+            img{
+                width: 318px;
+                height: 317px;
+                margin: auto;
+                position: relative;
+                top: -1200px;
+            }
+        }
+        .vendeConBTC__more__info{
+            width: 100%;
+
+            .venderConBTC__more__info__button{
+                width: 100%;
+                height: 53px;
+                font-size: 18px;
+            }
+        }
+    }   
+}

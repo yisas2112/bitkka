@@ -4,19 +4,40 @@
     justify-content: center;
     background-color: #FFFFFF;
     .privacidad__container{
-    width: 1037px;
-    margin-top: 67px;
-    margin-bottom: 135px;
+        width: 1037px;
+        margin-top: 67px;
+        margin-bottom: 135px;
+            
         
-    
-    h1{
-        width: 417px;        
-        line-height: 127%;
-        color: #141DF0;
-    }
-    p{
-        
-        line-height: 38px;
+        h1{
+            width: 417px;        
+            line-height: 127%;
+            color: #141DF0;
+        }
+        p{
+            
+            line-height: 38px;
+        }
     }
 }
+@media only screen and (max-width: 600px) {    
+    #privacidad{
+        width: 100%;    
+        text-align: center;
+        padding-top: 50px;
+        .privacidad__container{
+            width: 100%;
+            padding: 20px;
+            
+            h1{
+                width: 300px;
+                margin: auto;
+                
+            }
+            p{
+                width: 100%;
+            }
+        }
+    }
+
 }

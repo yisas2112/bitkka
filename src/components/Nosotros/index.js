@@ -9,7 +9,7 @@ const Nosotros = () =>{
                 vinculadas al desarrollo de tecnologías orientadas a dar soluciones de pagos a nuestros
                 clientes.
                 </h1>
-                <p><strong>Nuestra misión es innovar</strong> de manera permanente adaptándonos a las nuevas
+                <p className='nosotros__texto'><strong>Nuestra misión es innovar</strong> de manera permanente adaptándonos a las nuevas
                 tecnologías de comercio online mundial y estar a la vanguardia para ofrecer a nuestros
                 clientes herramientas que permita la expansión de vuestras compañías.
                 </p>
@@ -17,7 +17,7 @@ const Nosotros = () =>{
                 términos de transacciones económicas y han llegado para quedarse.</p>
                 <p><strong>Tenemos el desafío y el deber de continuar desarrollando tecnologías</strong> para estar a la altura de los acontecimientos venideros.</p>
                 <p>Cordialmente,</p>
-                <strong>Grupo Bitkkah UO</strong>
+                <strong className='nosotros__texto__cordialmente'>Grupo Bitkkah UO</strong>
                 <p>Bitkkapay pertenece al GRUPO BITKKAH OÜ, compañía constituida en Estonia
                 REGISTRY CODE: 14929610 -
                 FINANCIAL LICENCE: FVT000049 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './index.scss'
 import HomeSoporte from '../../images/homesoporte.svg'
 import LogoFooter from '../../images/logofooter.svg'
@@ -9,15 +9,15 @@ import $ from 'jquery'
 
 
 const Footer = ()=>{
+    const[asd, setAsd] = useState()
 
     const onClickUp = ()=>{
         window.scrollTo({
             top:0,
             behavior: 'smooth'
         })
-         $(".nav-item").removeClass("active");                          
-         document.getElementById('logo').style.display = 'none';
-         document.getElementById('logosecciones').style.display = 'block';
+        $(".nav-item").removeClass("active");                          
+        document.getElementById('logo').style.display = 'none';        
             
         
     }
@@ -62,8 +62,7 @@ const Footer = ()=>{
                     <div className='footer__contacto__column'>
                         <h3>Politicas</h3>
                         <Link to='/bitkka/privacidad' onClick={onClickUp}>Politica de Privacidad KYC/AML</Link>
-                        <Link to='/bitkka/terminosycondiciones'>Términos, Acuerdos Legales y Condiciones</Link>
-                             
+                        <Link to='/bitkka/terminosycondiciones' onClick={onClickUp}>Términos, Acuerdos Legales y Condiciones</Link>                             
                     </div>
                     <div className='footer__contacto__column'>
                         <h3>Contacto</h3>
