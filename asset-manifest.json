@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/bitkka/static/css/main.f212d7d4.chunk.css",
-    "main.js": "/bitkka/static/js/main.aafb77ff.chunk.js",
-    "main.js.map": "/bitkka/static/js/main.aafb77ff.chunk.js.map",
+    "main.js": "/bitkka/static/js/main.9666be34.chunk.js",
+    "main.js.map": "/bitkka/static/js/main.9666be34.chunk.js.map",
     "runtime-main.js": "/bitkka/static/js/runtime-main.ed2bae44.js",
     "runtime-main.js.map": "/bitkka/static/js/runtime-main.ed2bae44.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/bitkka/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.ffbbfc1a.chunk.js": "/bitkka/static/js/2.ffbbfc1a.chunk.js",
-    "static/js/2.ffbbfc1a.chunk.js.map": "/bitkka/static/js/2.ffbbfc1a.chunk.js.map",
+    "static/js/2.655a8e99.chunk.js": "/bitkka/static/js/2.655a8e99.chunk.js",
+    "static/js/2.655a8e99.chunk.js.map": "/bitkka/static/js/2.655a8e99.chunk.js.map",
     "index.html": "/bitkka/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/bitkka/static/css/2.ae9f1eb3.chunk.css.map",
     "static/css/main.f212d7d4.chunk.css.map": "/bitkka/static/css/main.f212d7d4.chunk.css.map",
-    "static/js/2.ffbbfc1a.chunk.js.LICENSE.txt": "/bitkka/static/js/2.ffbbfc1a.chunk.js.LICENSE.txt",
+    "static/js/2.655a8e99.chunk.js.LICENSE.txt": "/bitkka/static/js/2.655a8e99.chunk.js.LICENSE.txt",
     "static/media/beneficiosimagensegunda.9eea61bd.svg": "/bitkka/static/media/beneficiosimagensegunda.9eea61bd.svg",
     "static/media/beneficiosprimerimagen.e4fffd5b.svg": "/bitkka/static/media/beneficiosprimerimagen.e4fffd5b.svg",
     "static/media/beneficiosprimerimagenmobile.d3bf2e3e.svg": "/bitkka/static/media/beneficiosprimerimagenmobile.d3bf2e3e.svg",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.ed2bae44.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.ffbbfc1a.chunk.js",
+    "static/js/2.655a8e99.chunk.js",
     "static/css/main.f212d7d4.chunk.css",
-    "static/js/main.aafb77ff.chunk.js"
+    "static/js/main.9666be34.chunk.js"
   ]
 }
